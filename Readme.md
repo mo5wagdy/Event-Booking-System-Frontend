@@ -1,21 +1,31 @@
-# Eventat – Event Booking System (Frontend)
+# 🎉 Eventat – Event Booking System (Frontend)
 
 Eventat is a modern, responsive frontend for an event booking platform. It enables users to browse and book events, manage their bookings, and handle authentication—all with a clean, user-friendly interface.
 
 ---
 
-## 🌟 Features
+## ✨ Features
 
-- **Event Discovery:** Browse upcoming events with detailed information and images.
-- **User Authentication:** Secure registration and login using JWT.
-- **Event Booking:** Book events seamlessly with instant feedback.
-- **Booking Dashboard:** View and manage your bookings in a personalized dashboard.
-- **Responsive UI:** Optimized for both desktop and mobile devices.
-- **Modern Design:** Utilizes Poppins font, Font Awesome icons, and custom CSS for a sleek look.
+- 🔍 **Event Discovery:** Browse upcoming events with detailed information and images.
+- 🔐 **User Authentication:** Secure registration and login using JWT.
+- 🎟️ **Event Booking:** Book events seamlessly with instant feedback.
+- 📋 **Booking Dashboard:** View and manage your bookings in a personalized dashboard.
+- 📱 **Responsive UI:** Optimized for both desktop and mobile devices.
+- 🎨 **Modern Design:** Utilizes Poppins font, Font Awesome icons, and custom CSS for a sleek look.
 
 ---
 
-## 📂 Project Structure
+## 🖼️ Screenshots
+
+<img src="Repo%20Screens/Screenshot%202025-07-13%20214750.png" alt="Landing" width="48%" style="display:inline-block;margin-right:1%;" />
+<img src="Repo%20Screens/Screenshot%202025-07-13%20214819.png" alt="Event Details" width="48%" style="display:inline-block;" />
+<br>
+<img src="Repo%20Screens/Screenshot%202025-07-13%20214851.png" alt="Dashboard" width="48%" style="display:inline-block;margin-right:1%;" />
+<img src="Repo%20Screens/Screenshot%202025-07-13%20214926.png" alt="Login" width="48%" style="display:inline-block;" />
+
+---
+
+## 📁 Project Structure
 
 ```
 frontend/
@@ -40,12 +50,12 @@ frontend/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 🛠️ Prerequisites
 
 - [Node.js](https://nodejs.org/) (for running a static server) or Python 3
 - Backend API running and accessible
 
-### Installation & Local Development
+### ⚡ Installation & Local Development
 
 1. **Clone the repository:**
    ```bash
@@ -93,20 +103,20 @@ frontend/
 
 ## 🎨 Customization
 
-- **Styling:**  
+- 🎨 **Styling:**  
   Modify [`css/styles.css`](css/styles.css) to adjust colors, fonts, or layout.
-- **API URL:**  
+- 🔗 **API URL:**  
   Update the API base URL in [`js/config.js`](js/config.js) as needed.
 
 ---
 
 ## 🛠️ Troubleshooting
 
-- **404 Errors:**  
+- ❌ **404 Errors:**  
   Ensure you are serving files from the `frontend` directory and all assets are present.
-- **CORS Issues:**  
+- 🚫 **CORS Issues:**  
   The backend must allow requests from the frontend’s origin.
-- **Authentication Issues:**  
+- 🔑 **Authentication Issues:**  
   Verify the backend is running and the API URL is correct.
 
 ---
@@ -126,5 +136,5 @@ You are free to use, modify, and distribute as needed.
 
 ---
 
-**Enjoy using Eventat!**  
+**Enjoy using Eventat! 🚀**  
 For questions or suggestions, please open an issue or contact the maintainer.
