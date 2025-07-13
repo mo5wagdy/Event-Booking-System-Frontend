@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-calendar-heart"></i>
+            <span>Eventat</span>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#events">Events</a>
+            <a href="../pages/mybookings.html">My Bookings</a>
+            <div class="auth-buttons">
+                <!-- Auth buttons will be dynamically updated -->
+            </div>
+        </div>
+        <button class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div id="welcome-message"></div>
+                <h1>Discover Beautiful Events</h1>
+                <p>Find and book your perfect event experience</p>
+                <button class="btn btn-primary">Explore Events</button>
+            </div>
+        </section>
+
+        <section id="events" class="events-grid">
+            <h2>Upcoming Events</h2>
+            <div class="events-container">
+                <!-- Events will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- ...existing code... -->
+
+    <!-- Booking Confirmation Modal -->
+    <div id="booking-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="close-booking-modal">&times;</span>
+        <h3>Booking Confirmed!</h3>
+        <p>Your event has been booked successfully.</p>
+        <div class="modal-actions">
+          <button id="go-to-bookings" class="btn btn-primary">Go to My Bookings</button>
+          <button id="stay-here" class="btn btn-login">Stay Here</button>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Eventat</h3>
+                <p>Making event booking beautiful and simple</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#events">Events</a>
+                <a href="../pages/mybookings.html">My Bookings</a>
+                <a href="#about">About Us</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@eventat.com</p>
+                <p>Phone: 01000000000</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Eventat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/events.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/mybookings.js"></script>
+</body>
+</html> 
