@@ -6,12 +6,12 @@ Eventat is a modern, responsive frontend for an event booking platform. It enabl
 
 ## ✨ Features
 
-- 🔍 **Event Discovery:** Browse upcoming events with detailed information and images.
-- 🔐 **User Authentication:** Secure registration and login using JWT.
-- 🎟️ **Event Booking:** Book events seamlessly with instant feedback.
-- 📋 **Booking Dashboard:** View and manage your bookings in a personalized dashboard.
-- 📱 **Responsive UI:** Optimized for both desktop and mobile devices.
-- 🎨 **Modern Design:** Utilizes Poppins font, Font Awesome icons, and custom CSS for a sleek look.
+- **Event Discovery:** Browse upcoming events with detailed information and images.
+- **User Authentication:** Secure registration and login using JWT.
+- **Event Booking:** Book events seamlessly with instant feedback.
+- **Booking Dashboard:** View and manage your bookings in a personalized dashboard.
+- **Responsive UI:** Optimized for both desktop and mobile devices.
+- **Modern Design:** Utilizes Poppins font, Font Awesome icons, and custom CSS for a sleek look.
 
 ---
 
